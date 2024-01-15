@@ -30,20 +30,20 @@ header {
   color: #1c1c1c;
   font-size: 24px;
 }
-.fa-bars {
+.fa-solid.fa-bars.barras {
   display: none;
 }
-.fa-x {
+.fa-solid.fa-x.cerrar {
   display: none;
 }
 @media screen and (max-width: 550px) {
-  .fa-bars {
+  .fa-solid.fa-bars.barras {
     display: block;
     cursor: pointer;
     font-size: 40px;
     color: white;
   }
-  .fa-x {
+  .fa-solid.fa-x.cerrar {
     display: block;
     cursor: pointer;
     font-size: 40px;
