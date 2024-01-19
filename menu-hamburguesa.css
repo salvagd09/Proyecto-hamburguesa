@@ -19,6 +19,10 @@ header {
   display: flex;
   gap: 1rem;
 }
+h1 {
+  font-size: 35px;
+  color: white;
+}
 .nav-list li {
   padding: 10px;
 }
@@ -33,10 +37,91 @@ header {
 .fa-solid.fa-bars.barras {
   display: none;
 }
+.main {
+  background-image: url("https://img.freepik.com/foto-gratis/resumen-superficie-texturas-muro-piedra-hormigon-blanco_74190-8189.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1705622400&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.main .titulo {
+  font-size: 50px;
+  text-align: center;
+  color: green;
+}
+.main img {
+  width: 500px;
+  height: 500px;
+  margin: 30px 480px;
+  border-radius: 20px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
 .fa-solid.fa-x.cerrar {
   display: none;
 }
+.main h2 {
+  font-size: 30px;
+  color: red;
+}
+.main ul {
+  padding: 10px 15px;
+  list-style-image: radial-gradient(red, yellow);
+}
+.main ul li {
+  font-size: 25px;
+  color: rgb(184, 184, 18);
+}
+.main p {
+  font-size: 20px;
+  text-align: justify;
+}
+blockquote {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(200, 43, 43);
+  font-style: italic;
+  font-family: "Grape Nuts", cursive;
+}
+footer {
+  background-color: #073b4c;
+  padding: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  align-items: center;
+}
+footer h3 {
+  font-size: 40px;
+}
+footer .contactos {
+  display: flex;
+  gap: 2rem;
+}
+footer h3,
+footer a {
+  color: white;
+}
+footer a i {
+  font-size: 40px;
+}
+footer a .fa-youtube:hover {
+  color: red;
+}
+footer a .fa-github:hover {
+  color: rgb(102, 97, 97);
+}
+footer a .fa-facebook:hover {
+  color: rgb(12, 12, 251);
+}
 @media screen and (max-width: 550px) {
+  .main p {
+    padding: 10px;
+  }
+  .main img {
+    width: 200px;
+    height: 200px;
+    margin: 30px 130px;
+  }
   .fa-solid.fa-bars.barras {
     display: block;
     cursor: pointer;
@@ -49,6 +134,18 @@ header {
     font-size: 40px;
     margin-bottom: 10px;
     color: white;
+  }
+  blockquote {
+    font-size: 30px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+  footer a i {
+    display: block;
+    font-size: 30px;
   }
   .nav {
     opacity: 0;
